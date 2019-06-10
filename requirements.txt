@@ -1,0 +1,3 @@
+ConfigArgParse >= 0.13.0
+colorama >= 0.3.9
+tika >= 1.19
