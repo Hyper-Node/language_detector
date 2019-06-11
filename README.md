@@ -8,11 +8,9 @@ It aims to use as less external libraries for the classification as possible.
 
 
 ### Test Results 
-There we're 12 documents checked for testing. The document pool exists of scientific papers, wikipedia-articles and 
-languages. In the pool there we're 3 english, 3 german, 3 french, 2 thai and 1 spanish document. These documents are not provided here because of licensing. Sample result output for a scientific paper
-looks like this. All of these documents were classified correctly. The system was trained with input data in the same languages. 
+There we're 12 documents checked for testing. The document pool exists of scientific papers, wikipedia-articles and brochures on countries in different languages. In the pool there we're 3 english, 3 german, 3 french, 2 thai and 1 spanish document. These documents are not provided here because of licensing. All of these documents were classified correctly. The system was trained with input data in the same languages. 
 
-The first document was a scientific paper on sentiment-analysis, which is availible [here](https://www.aclweb.org/anthology/D13-1170): 
+The first document was a scientific paper on sentiment-analysis, which is availible [here](https://www.aclweb.org/anthology/D13-1170). 
 Result output can be seen below. 
 
 ```
