@@ -2,10 +2,10 @@
 This program detects the language of documents
 """
 
-from my_lib.configuration_handler import ConfigurationHandler
-from my_lib.conditional_print import ConditionalPrint
-from my_lib.text_file_loader import TextFileLoader
-from my_lib.langdet.SpatialLanguageIdentificator import SpatialLanguageIdentificator, ComparatorSLI
+from sd_core.configuration_handler import ConfigurationHandler
+from sd_core.conditional_print import ConditionalPrint
+from sd_core.text_file_loader import TextFileLoader
+from my_lib.SpatialLanguageIdentificator import SpatialLanguageIdentificator, ComparatorSLI
 import re
 import os
 

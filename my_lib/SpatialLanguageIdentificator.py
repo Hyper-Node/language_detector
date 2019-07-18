@@ -14,6 +14,7 @@ class ComparatorSLI(object):
 
     def __init__(self):
         print("SLI Comparator initialized")
+
     @staticmethod
     def distance_comparison(row_a, row_b):
         distances_in_row = []
@@ -74,6 +75,7 @@ class ComparatorSLI(object):
         if print_output:
             print("accumulated_distance is", accumulated_distance)
         return distances_matrix, accumulated_distance
+
 
 class SpatialLanguageIdentificator(object):
     def __init__(self, base_path, language_code):
@@ -136,8 +138,6 @@ class SpatialLanguageIdentificator(object):
             normalized_sli[key] = new_spatial_occurences
 
         self.sli_normalized = normalized_sli
-
-
 
     def get_number_of_used_characters(self):
         return len(self.sli)

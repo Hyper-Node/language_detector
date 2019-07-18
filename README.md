@@ -57,7 +57,7 @@ IDE for development was PyChar Community Edition by Jetbrains
 - create an n-gram based sli, to take character follow up sequences to account 
 - take one international version of the bible in many languages as learn in dataset
 - find treshold or algorithm to detect texts which are not any of the supported languages 
-- find alternative for tike webservice for pdf-reading 
+- find alternative for tika webservice for pdf-reading 
 
 
 ### References used
